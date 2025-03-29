@@ -1,0 +1,52 @@
+body, ul, p, h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+}
+header {
+    padding: 12px 40px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.orange-text {
+    color:rgb(196, 167, 5);
+    background-color: transparent;
+}
+h1 {
+    font-size:96px;
+    font-weight: 160%;
+}
+.main-banner-text {
+    font-size: 20px;
+    line-height: 160%;
+}
+.orange-btn{
+    width: 245px;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF9401;
+    color: aliceblue;
+    border-radius: 31px;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
